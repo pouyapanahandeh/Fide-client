@@ -3,7 +3,7 @@
         <v-container fluid>
             <v-toolbar id="navbar">
                 <v-toolbar-title>
-                    Fide
+                    <v-img id="logo" src="@/assets/fide-logo.png" alt="fide logo"></v-img>
                 </v-toolbar-title>
 
                 <v-spacer></v-spacer>
@@ -27,4 +27,10 @@
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
+
+#logo{
+    width: 100px;
+    height: auto;
+}
+
 </style>
