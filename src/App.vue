@@ -1,35 +1,30 @@
 <template>
-  <v-app>
-    <v-app-bar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Fide</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        text
-        href="#"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-app-bar>
-
+  <v-app id="landingPage">
+    <HeaderNav />
     <v-content>
-      <HelloWorld/>
+      <SectionOne />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
+import HeaderNav from './components/layout/HeaderNav';
+import SectionOne from './components/landingPage/SectionOne';
 export default {
   name: 'App',
+
   components: {
-    HelloWorld,
+    HeaderNav, SectionOne
   },
+
   data: () => ({
-    //
+    //Background color
+    
   }),
 };
 </script>
+<style>
+#landingPage{
+  background: white;
+}
+</style>

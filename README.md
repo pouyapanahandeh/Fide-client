@@ -1,5 +1,6 @@
 # fide-client
 
+
 ## Branching Methodology
 > Master Branch: Master Branch remain un changed till code base become stable.
 > Codes will push to the Dev Branches and when it becomes stable it will merge to the MVP branch.
@@ -37,6 +38,7 @@ api.fidebot.online/serviceStatus
 ### 
 ###
 
+
 ## Project setup
 ```
 yarn install
@@ -50,11 +52,6 @@ yarn serve
 ### Compiles and minifies for production
 ```
 yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
 ```
 
 ### Customize configuration
