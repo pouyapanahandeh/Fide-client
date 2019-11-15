@@ -6,8 +6,8 @@
     </v-content>
     <v-content>
       <SectionTwo />
+      <FooterNav />
     </v-content>
-    <FooterNav />
   </v-app>
 </template>
 
