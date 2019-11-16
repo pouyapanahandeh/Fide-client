@@ -11,7 +11,7 @@
                             <v-row justify="center">
                                 <v-col cols="4">
                                     <v-container>
-                                        <v-card class="mx-auto" max-width="400">
+                                        <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
                                             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
                                             </v-img>
@@ -25,8 +25,8 @@
                                     </v-container>
                                 </v-col>
                                 <v-col cols="4">
-                                                                        <v-container>
-                                        <v-card class="mx-auto" max-width="400">
+                                    <v-container>
+                                        <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
                                             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
                                             </v-img>
@@ -41,7 +41,7 @@
                                 </v-col>
                                 <v-col cols="4">
                                     <v-container>
-                                        <v-card class="mx-auto" max-width="400">
+                                        <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
                                             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
                                             </v-img>
@@ -69,3 +69,8 @@
     }),
   }
 </script>
+<style>
+#indexCard{
+    border-radius: 12px;
+}
+</style>
