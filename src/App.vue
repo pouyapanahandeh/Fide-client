@@ -6,6 +6,7 @@
     </v-content>
     <v-content>
       <SectionTwo />
+      <FooterNav />
     </v-content>
   </v-app>
 </template>
@@ -14,11 +15,12 @@
 import HeaderNav from './components/layout/HeaderNav';
 import SectionOne from './components/landingPage/SectionOne';
 import SectionTwo from './components/landingPage/SectionTwo';
+import FooterNav from './components/layout/FooterNav';
 export default {
   name: 'App',
 
   components: {
-    HeaderNav, SectionOne, SectionTwo
+    HeaderNav, SectionOne, SectionTwo, FooterNav
   },
 
   data: () => ({
