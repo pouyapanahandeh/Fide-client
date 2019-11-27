@@ -30,6 +30,13 @@
                     </v-col>
                 </v-container>
             </v-row>
+            <v-container class="my-4">
+                <v-container fluid>
+                    <v-row justify="center">
+                        <v-icon>mdi-mouse</v-icon>
+                    </v-row>
+                </v-container>
+            </v-container>
         </v-container>
     </v-container>
 </template>
