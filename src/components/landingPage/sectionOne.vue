@@ -24,7 +24,7 @@
                                 </v-container>                                
                             </v-col>
                             <v-col cols="6">
-                                <v-img src="@/assets/landingPage-image.jpg"></v-img>
+                                <v-img src="@/assets/landingPage-image.png"></v-img>
                             </v-col>
                         </v-row>
                     </v-col>
@@ -33,10 +33,21 @@
             <v-container class="my-4">
                 <v-container fluid>
                     <v-row justify="center">
-                        <v-icon>mdi-mouse</v-icon>
+                        <v-icon class="blink_me">mdi-mouse</v-icon>
                     </v-row>
                 </v-container>
             </v-container>
         </v-container>
     </v-container>
 </template>
+<style>
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+</style>

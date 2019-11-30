@@ -13,7 +13,7 @@
                                     <v-container>
                                         <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
-                                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+                                            src="@/assets/support.png">
                                             </v-img>
                                             <v-card-title>Fide Support Bot</v-card-title>
                                             <!-- <v-card-subtitle class="pb-0">Number 10</v-card-subtitle> -->
@@ -28,7 +28,7 @@
                                     <v-container>
                                         <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
-                                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+                                            src="@/assets/driver.png">
                                             </v-img>
                                             <v-card-title>Fide Driver Bot</v-card-title>
                                             <!-- <v-card-subtitle class="pb-0">Number 10</v-card-subtitle> -->
@@ -43,7 +43,7 @@
                                     <v-container>
                                         <v-card id="indexCard" class="mx-auto" max-width="400">
                                             <v-img class="white--text align-end" height="300px"
-                                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+                                            src="@/assets/passenger.png">
                                             </v-img>
                                             <v-card-title>Fide Rider Bot</v-card-title>
                                             <!-- <v-card-subtitle class="pb-0">Number 10</v-card-subtitle> -->
