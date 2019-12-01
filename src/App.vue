@@ -1,36 +1,15 @@
 <template>
-  <v-app id="landingPage">
-    <HeaderNav />
-    <v-content>
-      <SectionOne />
-    </v-content>
-    <v-content>
-      <SectionTwo />
-      <FooterNav />
-    </v-content>
-  </v-app>
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
-<script>
-import HeaderNav from './components/layout/HeaderNav';
-import SectionOne from './components/landingPage/SectionOne';
-import SectionTwo from './components/landingPage/SectionTwo';
-import FooterNav from './components/layout/FooterNav';
-export default {
-  name: 'App',
-
-  components: {
-    HeaderNav, SectionOne, SectionTwo, FooterNav
-  },
-
-  data: () => ({
-    //Background color
-    
-  }),
-};
-</script>
 <style>
-#landingPage{
-  background: white;
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
 }
 </style>
