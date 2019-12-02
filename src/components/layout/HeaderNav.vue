@@ -3,7 +3,9 @@
         <v-container fluid>
             <v-toolbar id="navbar">
                 <v-toolbar-title>
-                    <v-img id="logo" src="@/assets/fide-logo.png" alt="fide logo"></v-img>
+                    <router-link to="/">
+                        <v-img id="logo" src="@/assets/fide-logo.png" alt="fide logo"></v-img>
+                    </router-link>
                 </v-toolbar-title>
 
                 <v-spacer></v-spacer>
@@ -25,14 +27,14 @@
                                                 <v-col cols="10" offset="1">
                                                     <v-container>
                                                         <v-img src="@/assets/fide.png" align="center"></v-img>
-                                                        <h3>Fide</h3>
-                                                        <p class="my-2">Fide is a messneger chat BOt that helps you get a cab through facebook.</p>
-                                                        <h3>How's it work?</h3>
-                                                        <p class="my-2">Open your messenger app, Type Fide Driver/Passenger and follow the steps to get ride or passenger.</p>
-                                                        <h3>How much does it cost?</h3>
-                                                        <p class="my-2">Fide is free for passengers, they only need to pay for their ride. Driver also, can use BOT for free, prices will apply from April 2020.</p>
-                                                        <h3>Support & Feedbacks</h3>
-                                                        <p class="my-2">Type Fide Support on messenger search bar and follow the steps, in case your feedback is related to the ride you need your fide code.</p>
+                                                        <h3 align="left">Fide</h3>
+                                                        <p class="my-2" align="left">Fide is a messneger chat BOt that helps you get a cab through facebook.</p>
+                                                        <h3 align="left">How's it work?</h3>
+                                                        <p class="my-2" align="left">Open your messenger app, Type Fide Driver/Passenger and follow the steps to get ride or passenger.</p>
+                                                        <h3 align="left">How much does it cost?</h3>
+                                                        <p class="my-2" align="left">Fide is free for passengers, they only need to pay for their ride. Driver also, can use BOT for free, prices will apply from April 2020.</p>
+                                                        <h3 align="left">Support & Feedbacks</h3>
+                                                        <p class="my-2" align="left">Type Fide Support on messenger search bar and follow the steps, in case your feedback is related to the ride you need your fide code.</p>
                                                     </v-container>
                                                 </v-col>
                                             </v-row>
