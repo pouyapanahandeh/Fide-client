@@ -7,9 +7,7 @@
                         <v-img id="logo" src="@/assets/fide-logo.png" alt="fide logo"></v-img>
                     </router-link>
                 </v-toolbar-title>
-
                 <v-spacer></v-spacer>
-
                 <v-toolbar-items>
                     <v-dialog v-model="dialog" width="800px" style="border-radius: 15px;">
                         <template v-slot:activator="{ on }">
